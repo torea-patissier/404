@@ -1,45 +1,28 @@
 body{
     font-family: "Verdana";
-    /* type de police */
     padding: 0;
-    /* définit les écarts de remplissage  */
     margin: 0;
     background-image: linear-gradient(#96ceb4,#ffeead);
-    /* couleur de fond en dégradé */
+    color: white;
     min-height: 100vh
 }
 
-#aaa {
+#message {
     width: 100%;
     position: absolute;
-    top:40%;
+    top:30%;
     transform: translateY(-50%);
-    /* text up */
     text-align: center;
     background: url(https://zupimages.net/up/20/40/n6ok.jpg) center;
-    /* Background image hébergé sur serveur externe */
-    letter-spacing: 4px;
-    /* Espace entre les lettres */
-    -webkit-text-fill-color: transparent;
-    /* Incorpore les lettres à l'image en background */
-    -webkit-background-clip: text;
-    /* Les lettres apparaissent avec en background l'image choisit  */
-}
-#aaa h2 {
-    font-size: 130px;
-    /* taille de la police */
-    font-weight: 900;
-    /* largeur de la police */
-    -webkit-background-clip: text;
-
-    
-}
-
-#aaa h1 {
-    font-size: 170px;
+    letter-spacing: 5px;
+    font-size: 90px;
     font-weight: 1000;
-    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 
+h1{
+  -webkit-background-clip: text;
 }
 
 .spinner {
@@ -48,15 +31,15 @@ body{
     height: 40px;
     text-align: center;
     font-size: 10px;
-    transform: translateY(500%);
+    transform: translateY(400%);
   }
   
   .spinner > div {
-    background-color: whitesmoke;
+    background-color: white;
     height: 100%;
     width: 7px;
     display: inline-block;
-    posi
+    
     
     -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
     animation: sk-stretchdelay 1.2s infinite ease-in-out;
@@ -100,14 +83,31 @@ body{
 
 
 
-#parag {
+#pageintrouvable {
     width: 100%;
     position: absolute;
     top:40%;
     transform: translateY(250%);
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 200;
-    color: whitesmoke;
+  }
+
+header {
+  font-size: 40px;
+  font-weight: 250px;
+  text-align: center; 
 }
+
+
+
+footer, section {
+  display: flex;
+  font-size: medium;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 200;
+  transform: translateY(350%);
+}
+
 
